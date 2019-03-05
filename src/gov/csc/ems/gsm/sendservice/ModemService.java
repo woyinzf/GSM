@@ -24,7 +24,7 @@ public class ModemService {
 	public static void initialize() {
 		System.out.println("示例: 通过串口短信设备发送短信. master3");
 		System.out.println(Library.getLibraryDescription());
-		System.out.println("版本1: " + Library.getLibraryVersion());
+		System.out.println("版本2: " + Library.getLibraryVersion());
 
 		// 有时由于信号问题,可能会引起超时,运行时若出现No Response 请把这句注释打开
 		// System.setProperty("sendsms.nocops",new String());
