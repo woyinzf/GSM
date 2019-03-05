@@ -22,7 +22,7 @@ public class ModemService {
 	private static Service srv;
 
 	public static void initialize() {
-		System.out.println("示例: 通过串口短信设备发送短信. add dev1");
+		System.out.println("示例: 通过串口短信设备发送短信. add dev2");
 		System.out.println(Library.getLibraryDescription());
 		System.out.println("版本: " + Library.getLibraryVersion());
 
